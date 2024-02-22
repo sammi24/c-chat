@@ -1,4 +1,6 @@
+#include <arpa/inet.h>
 #include <netdb.h>
+#include <netinet/in.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -8,7 +10,7 @@
 #include "client.h"
 #include "server.h"
 
-int main() {
+int main(int argc, char *argv[]) {
     // initialize server
     server_initialize();
 
