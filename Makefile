@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -Wextra -std=c99
+CFLAGS = -Wall -Wextra -std=c99 -D_GNU_SOURCE
 TARGET_DIR = bin
 TARGET = $(TARGET_DIR)/out
 SRC_DIR = src
